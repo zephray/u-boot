@@ -1,0 +1,6 @@
+SOBAR23-RK3288
+M:	Wenting Zhang <zephray@outlook.com>
+S:	Maintained
+F:	board/rockchip/sobar23_rk3288
+F:	include/configs/sobar23_rk3288.h
+F:	configs/sobar23-rk3288_defconfig

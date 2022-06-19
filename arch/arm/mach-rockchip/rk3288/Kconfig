@@ -134,6 +134,13 @@ config TARGET_TINKER_RK3288
 	  8GB eMMC and 2GB of SDRAM. Expansion connectors provide access to
 	  I2C, SPI, UART, GPIOs.
 
+config TARGET_SOBAR23_RK3288
+	bool "SoBAR 23"
+	select BOARD_LATE_INIT
+	select TPL
+	help
+		Support DICAMO SoBAR 23.
+
 endchoice
 
 config ROCKCHIP_FAST_SPL
@@ -195,5 +202,7 @@ source "board/radxa/rock2/Kconfig"
 source "board/rockchip/evb_rk3288/Kconfig"
 
 source "board/rockchip/tinker_rk3288/Kconfig"
+
+source "board/rockchip/sobar23_rk3288/Kconfig"
 
 endif
